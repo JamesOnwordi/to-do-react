@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.headerDiv{
+  background-color:rgba(66, 188, 72, 0.457)
+}
+.innerDiv{
+  background-color :rgba(67, 11, 126, 0.641)
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

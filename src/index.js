@@ -4,10 +4,12 @@ import './index.css';
 import MyList from './MyList';
 import reportWebVitals from './reportWebVitals';
 
+const toDos = ['Finish this Deliverable', 'Go to Bed', 'Read', 'Go to Class']
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MyList />
+    <MyList theList ={toDos}/>
   </React.StrictMode>
 );
 
